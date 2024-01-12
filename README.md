@@ -24,3 +24,16 @@ void main()
     FragColor = vertexColor;
 }
 ```
+## Third topic: Textures
+- Textures are literally plain images that we map to render on top of each model/shape. It would be expensive if we
+had to use multiple vertex with colours attributes to build textures.
+- Textures have a bunch of settings to optmize and define the way they should be displayed (Texture filtering, Texture wrapping, etc).
+  - Texture wrapping: Texture coordinates go from (0,0) to (1, 1), texture wrapping deal with when we specify coordinates outside of this range.
+  - Texture Filtering: OpenGL has to define which texture pixel (texel) map to the texture coordinate.
+- Mipmaps are texture images of all different sizes to deal with optimization, why would we use an high quality texture on an far way object that
+produces small fragments?
+"To solve this issue OpenGL uses a concept called mipmaps that is basically a collection of texture images where each subsequent texture is twice as small compared to the previous one."
+
+Rectangle with an wooden texture:
+
+![image](https://github.com/WilliamKSilva/opengl/assets/75429175/75a6418c-0c35-438d-81a1-636895799a88)
