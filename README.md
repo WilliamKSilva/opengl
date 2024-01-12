@@ -37,3 +37,11 @@ produces small fragments?
 Rectangle with an wooden texture:
 
 ![image](https://github.com/WilliamKSilva/opengl/assets/75429175/75a6418c-0c35-438d-81a1-636895799a88)
+
+## Fourth topic: Transformation
+- Everything is vectors and matrixes. We use matrixes to manipulate our vectors and move/transform things on the screen, very fun.
+- I think the first line already described all we need to know about this topic, vectors and matrixes values change = things moving on the screen.
+- GLM is an math library made specially for OpenGL.
+
+https://github.com/WilliamKSilva/opengl/assets/75429175/a919a146-1c61-4b33-91ba-e620934abdba
+
