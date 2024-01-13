@@ -7,5 +7,6 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="shader.h" />
+    <ClInclude Include="camera.h" />
   </ItemGroup>
 </Project>
