@@ -45,3 +45,17 @@ Rectangle with an wooden texture:
 
 https://github.com/WilliamKSilva/opengl/assets/75429175/a919a146-1c61-4b33-91ba-e620934abdba
 
+## Fifth topic: Coordinate Systems
+- An game camera is definitely more complex that it seems.
+- OpenGL render all the things on the screen using an 2D coordinate system that goes from 0 to 1 and 0 to -1 on X and Y axis. But for we get to this points we
+have to travel a long distance.
+- We have to do some transformations on the objects before achieve the final screen position, passing through some other coordinate systems:
+  - Local Space
+  - World Space
+  - View Space
+  - Clip Space
+
+Its hard to explain all of this, so here is the link describing all of them: https://learnopengl.com/Getting-started/Coordinate-Systems
+
+https://github.com/WilliamKSilva/opengl/assets/75429175/3025f257-1d3a-454b-ae41-621041bba840
+
