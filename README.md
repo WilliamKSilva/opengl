@@ -59,3 +59,7 @@ Its hard to explain all of this, so here is the link describing all of them: htt
 
 https://github.com/WilliamKSilva/opengl/assets/75429175/3025f257-1d3a-454b-ae41-621041bba840
 
+## Sixth topic: Camera
+- A lot of math to control the camera.
+- A "look at" matrix helps a lot with the camera positioning
+- I learned how the "right" direction vector of an object is defined (cross products everywhere).
